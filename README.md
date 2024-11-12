@@ -17,15 +17,9 @@ Create a Binder launch button:
 
 Create a Google Colab button:
 
-1. Copy the GitHub repo URL
-2. Go to https://openincolab.com/
-3. Fill in the tutorial URL and select 'Generate'
-4. Copy the HTML code for the button
-5. Launch to build environment
+1. Replace *plantcv-tutorial-template* with the appropriate tutorial repo name
 
-<a target="_blank" href="https://colab.research.google.com/github/danforthcenter/plantcv-tutorial-template">
-  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
-</a>
+[![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/danforthcenter/plantcv-tutorial-template/blob/main/index-Colab.ipynb)
 
 Create a GitHub Source button:
 
