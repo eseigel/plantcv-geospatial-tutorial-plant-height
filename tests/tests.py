@@ -19,8 +19,9 @@ def setup_function():
 # Tests executing the notebook
 # ##########################
 def test_notebook():
+    project_root = os.getcwd()
     # Open the notebook
-    with open("index.ipynb", "r") as f:
+    with open(os.path.join(project_root, "index.ipynb"), "r") as f:
         nb = nbformat.read(f, as_version=4)
 
     # Process the notebook
