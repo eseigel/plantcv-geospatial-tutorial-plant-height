@@ -28,6 +28,7 @@ jobs:
               python-version: ${{ matrix.python-version }}
         - name: Install dependencies
           run: |
+            ln -s ./img tests/img
             python -m pip install --upgrade pip
             pip install pytest jupyter nbconvert
             pip install -r requirements.txt
