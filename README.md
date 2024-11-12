@@ -1,5 +1,7 @@
 # Tutorial Title
 
+[![test-pr](https://github.com/danforthcenter/plantcv-tutorial-template/actions/workflows/ci-tests.yml/badge.svg)](https://github.com/danforthcenter/plantcv-tutorial-template/actions/workflows/ci-tests.yml)
+
 Description of tutorial.
 
 Create a Binder launch button:
