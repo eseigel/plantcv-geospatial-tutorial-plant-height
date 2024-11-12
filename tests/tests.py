@@ -5,6 +5,7 @@ import nbformat
 from nbconvert.preprocessors import ExecutePreprocessor
 
 TEST_TMPDIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", ".cache")
+project_root = os.getcwd()
 
 
 # ##########################
@@ -19,9 +20,9 @@ def setup_function():
 # Tests executing the notebook
 # ##########################
 def test_notebook():
-    project_root = os.getcwd()
+    os.chdir(project_root)
     # Open the notebook
-    with open(os.path.join(project_root, "index.ipynb"), "r") as f:
+    with open("index.ipynb", "r") as f:
         nb = nbformat.read(f, as_version=4)
 
     # Process the notebook
