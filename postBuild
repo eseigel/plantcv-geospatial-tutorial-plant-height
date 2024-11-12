@@ -1,5 +1,1 @@
-git clone --branch release-4.0 --single-branch https://github.com/danforthcenter/plantcv.git
-cd plantcv
-pip install .
-cd ..
-rm -fr plantcv
+
