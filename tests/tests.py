@@ -1,6 +1,4 @@
 import os
-import shutil
-import pytest
 import nbformat
 from nbconvert.preprocessors import ExecutePreprocessor
 
@@ -22,10 +20,3 @@ def test_notebook(tmpdir):
         nbformat.write(nb, f)
 
     assert os.path.exists(out_nb)
-
-
-# ##############################
-# Clean up test files
-# ##############################
-def teardown_function():
-    shutil.rmtree(TEST_TMPDIR)
