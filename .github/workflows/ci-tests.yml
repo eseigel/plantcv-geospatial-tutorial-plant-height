@@ -33,5 +33,5 @@ jobs:
             pip install -r requirements.txt
         - name: "Build notebooks"
           run: |
-            ln -s img tests/img
+            ln -s ../img
             pytest -v tests/tests.py
