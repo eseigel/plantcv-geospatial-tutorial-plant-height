@@ -1,8 +1,6 @@
 # Tutorial Title
 
-[![test-pr](https://github.com/danforthcenter/plantcv-tutorial-template/actions/workflows/ci-tests.yml/badge.svg)](https://github.com/danforthcenter/plantcv-tutorial-template/actions/workflows/ci-tests.yml)
-
-Description of tutorial.
+Description of tutorial. (ex. Try out our interactive tutorial! Learn how to ... using PlantCV.)
 
 Create a Binder launch button:
 
@@ -17,17 +15,14 @@ Create a Binder launch button:
 
 Create a Google Colab button:
 
-1. Copy the GitHub repo URL
-2. Go to https://openincolab.com/
-3. Fill in the tutorial URL and select 'Generate'
-4. Copy the HTML code for the button
-5. Launch to build environment
+1. Copy the markdown below these instructions to the README section below the Binder button.
+2. Replace {repo_name} with the name of the repository you want a button made for.
+3. Make sure you have created the Google Colaboratory notebook for the tutorial so the button is correctly linked.
 
-<a target="_blank" href="https://colab.research.google.com/github/danforthcenter/plantcv-tutorial-template">
-  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
-</a>
+[![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/danforthcenter/{repo_name}/blob/main/index-Colab.ipynb)
 
 Create a GitHub Source button:
+(Omit this step if you are working GitHub tutorial repo README)
 
 1. Copy the GitHub repo URL
 2. Go to https://shields.io/badges/static-badge
@@ -48,3 +43,5 @@ tag1, tag2, (e.g. data type, species featured, algorithm, etc) ...
 ## Citations
 
 Optional.
+
+[![test-pr](https://github.com/danforthcenter/plantcv-tutorial-template/actions/workflows/ci-tests.yml/badge.svg)](https://github.com/danforthcenter/plantcv-tutorial-template/actions/workflows/ci-tests.yml)
