@@ -1,8 +1,8 @@
 # Plant Height Tutorial
 
-Try out our tutorial! Learn how to XXx with PlantCV Geospatial.
+Try out our tutorial! Learn how to find plant height of plots with PlantCV Geospatial.
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/eseigel/plantcv-geospatial-tutorial-plant-height/b2f65d5ba82c31e764375eca7e0b167fe98e5518?urlpath=lab%2Ftree%2Findex.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/eseigel/plantcv-geospatial-tutorial-plant-height/1e57b501500ed2d2e24bdab3535595b9c775cf23?urlpath=lab%2Ftree%2Findex.ipynb)
 
 Create a Google Colab button:
 
