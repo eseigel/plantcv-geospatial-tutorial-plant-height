@@ -1,0 +1,1 @@
+The images that were used in this tutorial come from the BisonFly GitHub. If you [go to this link](https://github.com/filipematias23/Bison-Fly) and click "Image Analysis in R", you can download the zip file that contains the DSMs and RGBs. EX_11_DAP_55_2021_Casselton_YT_07-01 was the DSM/RBG that was used in the tutorial.
